@@ -20,7 +20,11 @@ OAuth クライアントの設定を行う
 リダイレクト先：http://localhost:3000/api/auth/callback/google
 
 
-
+## .env.local に設定を記述
+```
+GOOGLE_CLIENT_ID=クライアントID
+GOOGLE_CLIENT_SECRET=クライアントシークレット
+```
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
