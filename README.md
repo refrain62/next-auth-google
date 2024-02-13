@@ -26,6 +26,11 @@ GOOGLE_CLIENT_ID=クライアントID
 GOOGLE_CLIENT_SECRET=クライアントシークレット
 ```
 
+## callbacksの処理追加
+https://reffect.co.jp/react/next-auth
+Google認証後の独自処理の実装が可能
+sessionに追加情報を足したり、そもそもSignInのときに認可の剥奪も可能
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
